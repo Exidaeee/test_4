@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(200, 350, 250);
+    color: rgb(40, 101, 125);
+    }
+
+.wrapper{
+    margin:0 auto;
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-family: 'Balsamiq Sans';
+    font-family: 'Train One';
+    font-style: italic;
+    background-color:rgb(200, 350, 250);
+    border-radius: 10px;
+}
+.header{
+    text-align: center;
+}
+.right{
+    color: rgb(54, 199, 202);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left:5px;
+}
+.wrong{
+    color: rgb(202, 0, 10);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left:5px;
+}
+.hidden{
+    display: none;
+}
+#btn1{
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+}
+.opend{
+    background-color:  rgb(167, 188, 188);
+}
